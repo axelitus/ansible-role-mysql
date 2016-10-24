@@ -1,0 +1,6 @@
+--- # Ansible Role [MySQL]: tasks.main (Axel Pardemann <axelitus@GitHub>)
+- name: Include OS specific variables
+  include_vars: "{{ ansible_os_family }}.yml"
+
+- include: "{{ ansible_distribution }}/install_mysql.yml"
+- include: "{{ ansible_distribution }}/copy_mysql_config.yml"

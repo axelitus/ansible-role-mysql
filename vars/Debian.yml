@@ -1,0 +1,2 @@
+--- # Ansible Role [MySQL]: vars.debian (Axel Pardemann <axelitus@GitHub>)
+axelitus_mysql_server_conf: "/etc/mysql/mysql.conf.d/mysqld.cnf"
